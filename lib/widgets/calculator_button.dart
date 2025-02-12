@@ -4,7 +4,8 @@ class CalculatorButton extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;
 
-  CalculatorButton({required this.text, required this.onPressed});
+  const CalculatorButton(
+      {super.key, required this.text, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
